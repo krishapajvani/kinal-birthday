@@ -163,8 +163,8 @@ body {
   height: 100% !important;
   opacity: 1 !important;
   visibility: visible !important;
-  object-fit: cover;
-  transition: transform 0.3s ease;
+  object-fit: cover !important;
+  background: white;
 }
 
 .photo-message {
