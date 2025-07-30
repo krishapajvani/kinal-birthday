@@ -386,3 +386,13 @@ footer button {
     font-size: 1.8rem;
   }
 }
+
+.photo-card img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  object-fit: cover !important;
+  background: white;
+}
