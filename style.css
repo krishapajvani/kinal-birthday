@@ -387,16 +387,16 @@ footer button {
   }
 }
 
-/* 🔧 Debug force fix for photo visibility */
 .photo-card img {
   display: block !important;
   width: 100% !important;
   height: 100% !important;
-  max-width: 100% !important;
-  max-height: 100% !important;
   opacity: 1 !important;
   visibility: visible !important;
-  background: white !important;
-  border: 1px solid pink !important;
   object-fit: cover !important;
+  background: white;
+  border: 1px solid pink;
+}
+.photo-card {
+  border: 2px solid hotpink !important;
 }
